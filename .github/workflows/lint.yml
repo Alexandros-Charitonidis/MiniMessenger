@@ -24,4 +24,4 @@ jobs:
           # 'strict' compliance ensures it meets all Library Registry rules
           compliance: strict
           # 'update' tells the linter to check against the latest registry index
-          library-manager: update
+          library-manager: submit
