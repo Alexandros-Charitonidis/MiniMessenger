@@ -25,7 +25,7 @@ int servoPos = 0;
 int sweepDirection = 1;
 unsigned long lastMoveMs = 0;
 
-// This function runs every time an MQTT message arrives for this robot
+// This function runs every time an MQTT message arrives for this robot.
 void onMessage(const MessageMetadata& metadata, const uint8_t* payload, size_t length) {
     char msg[128];
     size_t copyLen = (length < 127) ? length : 127;
@@ -82,9 +82,8 @@ void loop() {
 
     // 2. THE SAFETY GATE
     // If safety is NOT enabled, we stop updating the servo. 
-    // For a standard servo, this "freezes" it in its current position.
     if (!safetyEnabled) {
-        // Optional: Move to a specific "Safe" position like 90 degrees?
+        // Move to a specific "Safe" position.
         myServo.write(90); 
         
         // Optional: detach() if you want the servo to have NO holding torque (let it go limp)

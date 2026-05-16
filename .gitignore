@@ -7,3 +7,4 @@ build/
 
 examples/*/
 !examples/GIGA_Servo_Safety_Test/
+examples/GIGA_Servo_Safety_Test/secrets.h
