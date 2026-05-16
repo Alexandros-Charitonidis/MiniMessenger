@@ -1,5 +1,7 @@
-# RoboticsChallenge 2026 MiniMessenger
+# RoboticsChallenge MiniMessenger
+[![Arduino Lint](https://github.com/Alexandros-Charitonidis/RoboticsChallenge-MQTT/actions/workflows/lint.yml/badge.svg)](https://github.com/Alexandros-Charitonidis/RoboticsChallenge-MQTT/actions/workflows/lint.yml)
 
+This library handles the primary communication between the arena robots and the central challenge server.
 Classroom board-to-board and board-to-server messaging for Arduino GIGA robot pairs.
 
 ## Description
